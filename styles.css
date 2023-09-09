@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background: #862f7f;
+    font-family: cursive;
+    color: #ccc;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title-img {
+  border-radius: 30%;
+  /* border: 5px solid rgb(127, 141, 113); */
+  box-shadow: 0px 0px 3rem rgba(155, 175, 204, 0.502);
+}
+.git-link a{
+    text-decoration: none;
+    color: #be828f;
+}
